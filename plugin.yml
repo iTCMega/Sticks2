@@ -9,5 +9,70 @@ api:
 main: Sticks\SticksMain
 
 commands:
+  attackstick:
+    usage: /attackstick
+    description: Get an attack stick
+    aliases: [attack, attacks, stickattack]
+    permission: sticks.command.attackstick
+  controlstick:
+    usage: /controlstick
+    description: Get a control stick
+    aliases: [control, control, stickcontrol]
+    permission: sticks.command.controlstick
+  godmodestick:
+    usage: /godmodestick
+    description: Get a godmode stick
+    aliases: [godmode, godmodes, gmodestick, gmode, stickgodmode]
+    permission: sticks.command.godmodestick
+  gravitystick:
+    usage: /gravitystick
+    description: Get a gravity stick
+    aliases: [gravity, gravitys, stickgravity]
+    permission: sticks.command.gravitystick
+  growupstick:
+    usage: /growupstick
+    description: Get a growup stick
+    aliases: [growup, growups, stickgrowup, growstick, agestick]
+    permission: sticks.command.growupstick
+  jumpstick:
+    usage: /jumpstick
+    description: Get a jump stick
+    aliases: [jump, jumps, stickjump]
+    permission: sticks.command.jumpstick
+  killstick:
+    usage: /killstick
+    description: Get a kill stick
+    aliases: [kill, kills, stickkill, kstick]
+    permission: sticks.command.killstick
+  mountstick:
+    usage: /mountstick
+    description: Get a mount stick
+    aliases: [mount, mounts, stickmount, mstick]
+    permission: sticks.command.mountstick
+  pickupstick:
+    usage: /pickupstick
+    description: Get a pickup stick
+    aliases: [pickup, pickups, stickpickup, pstick]
+    permission: sticks.command.pickupstick
+  slimestick:
+    usage: /slimestick
+    description: Get a slime stick
+    aliases: [slime, slimes, stickslime, sstick]
+    permission: sticks.command.slimestick
+  teleportstick:
+    usage: /teleportstick
+    description: Get a teleport stick
+    aliases: [tpstick, teleportstick, stickteleport, tstick]
+    permission: sticks.command.teleportstick
+  witchstick:
+    usage: /witchstick
+    description: Get a witch stick
+    aliases: [witch, witchs, stickwitch, wstick]
+    permission: sticks.command.witchstick
+  sticks:
+    usage: /sticks
+    description: Open the sticks inventory
+    aliases: [stick, stickgui, guistick]
+    permission: sticks.command.sticks
 
 permissions:
